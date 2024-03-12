@@ -1,33 +1,29 @@
-
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 #content {
     display:flex;
     justify-content: center;
     width: 75%;
 }
 
-#content button {
-    width: 50px;
-    height: 50px;
-}
 
 #projectContainer {
     display: flex;
     flex-direction: column;
-    width :200px;
+    width :300px;
     height: 800px;
     border : solid;
 }
 
-#projectContainer p {
-    margin-left: 5px;
-    font-weight: bold;
-    font-size: larger;
+h1 {
+    padding: 5px;
 }
 
 #todoContainer {
     position: relative;
-    width: 100%;
     border: solid;
+    width: 100%;
 }
 
 
@@ -41,10 +37,80 @@
     display: flex;
     border: solid;
     justify-content: space-evenly;
+    align-items: center;
 }
 
 .project-list {
     display:flex;
     justify-content: space-evenly;
+    align-items: center;
 }
+
+.project-list h2:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
+.main-button {
+  margin-right: 60px;
+  appearance: none;
+  background-color: #2ea44f;
+  border: 1px solid rgba(27, 31, 35, .15);
+  border-radius: 6px;
+  box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  padding: 6px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.main-button:hover {
+  background-color: #2c974b;
+}
+
+
+.sub-button {
+    appearance: none;
+    background-color: #2ea44f;
+    border: 1px solid rgba(27, 31, 35, .15);
+    border-radius: 6px;
+    box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    white-space: nowrap;
+    height : 30px;
+  }
+  
+  .sub-button:hover {
+    background-color: #2c974b;
+  }
+
+
 

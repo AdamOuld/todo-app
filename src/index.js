@@ -1,6 +1,15 @@
 import './styles.css'
-import DOMHandler from "./domhandler.js";
+import { updateProjectDOM, resetAllActives} from './domhandler.js'
+import { renderEventListeners } from './logic.js'
 
-import Project from './Project.js'
-import Task from './Task.js'
+
+
+
+function startApp() {
+    resetAllActives()
+    renderEventListeners()
+    updateProjectDOM()
+}
+
+startApp()
 
