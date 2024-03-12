@@ -1,4 +1,50 @@
+
 #content {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    display:flex;
+    justify-content: center;
+    width: 75%;
 }
+
+#content button {
+    width: 50px;
+    height: 50px;
+}
+
+#projectContainer {
+    display: flex;
+    flex-direction: column;
+    width :200px;
+    height: 800px;
+    border : solid;
+}
+
+#projectContainer p {
+    margin-left: 5px;
+    font-weight: bold;
+    font-size: larger;
+}
+
+#todoContainer {
+    position: relative;
+    width: 100%;
+    border: solid;
+}
+
+
+#todoList {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.task-div {
+    display: flex;
+    border: solid;
+    justify-content: space-evenly;
+}
+
+.project-list {
+    display:flex;
+    justify-content: space-evenly;
+}
+

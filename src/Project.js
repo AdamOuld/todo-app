@@ -1,8 +1,9 @@
 class Project{
-    constructor(name, desc) {
+    constructor(name) {
         this.name = name
-        this.desc = desc
+        this.todos = []
+        this.active = false
     }
 }
 
-export default Project
+export  default Project
